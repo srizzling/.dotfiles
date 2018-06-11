@@ -28,7 +28,7 @@ git submodule update --init --recursive --remote --merge --quiet
 
 # Run all installs
 echo "› $DOTFILES/install"
-"$DOTFILES/install.sh"
+"$DOTFILES/run_install.sh"
 
 if which antibody >/dev/null 2>&1; then
 	echo "› antibody update"
