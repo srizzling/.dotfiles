@@ -3,6 +3,7 @@ caarlos0/git-add-remote kind:path
 caarlos0/ports kind:path
 caarlos0/zsh-git-sync kind:path
 Tarrasch/zsh-bd
+mafredri/zsh-async
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 
