@@ -1,4 +1,4 @@
 #!/bin/sh
 
-export GOPATH="$PROJECTS/Go"
+export GOPATH="$PROJECTS/golang"
 export PATH="$PATH:$GOPATH/bin"
