@@ -5,11 +5,6 @@ set -e
 
 # find the installers and run them iteratively
 git ls-tree --name-only -r HEAD | grep install.sh | while read -r installer; do
-
-        # ignore self
-        if "$installer" != "install.sh"; then
-                echo "› ${installer}..."
-	        sh -c "$installer"
-        fi
-
+    echo "› ${installer}..."
+	sh -c "$installer"
 done
