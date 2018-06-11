@@ -2,7 +2,6 @@
 
 if [ "$(uname -s)" = "Darwin" ]; then
 	if which brew >/dev/null 2>&1; then
-		brew tap caskroom/font
 		brew cask install font-source-code-pro
 	else
 		echo "Couldn't install font because brew isn't installed"
