@@ -1,0 +1,7 @@
+.DS_Store
+*~
+*.swp
+*.orig
+.project
+.settings
+.vscode/
