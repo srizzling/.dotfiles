@@ -39,8 +39,7 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_SPACE
 setopt HIST_VERIFY
 setopt HIST_EXPIRE_DUPS_FIRST
-# dont ask for confirmation in rm globs*
-setopt RM_STAR_SILENT
+
 
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
@@ -55,3 +54,6 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
+bindkey "^A" vi-beginning-of-line
+bindkey "^E" vi-end-of-line
+bindkey '^R' history-incremental-search-backward
