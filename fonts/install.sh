@@ -7,7 +7,7 @@ if [ "$(uname -s)" = "Darwin" ]; then
 		echo "Couldn't install font because brew isn't installed"
 	fi
 else
-	if which dnf >/dev/nill 2>&1; then
+	if which dnf >/dev/null 2>&1; then
 		sudo dnf install -y levien-inconsolata-fonts
 	else
 		echo "Not using fedora?"
