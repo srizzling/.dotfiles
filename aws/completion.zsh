@@ -1,3 +1,7 @@
 #!/bin/sh
 # shellcheck disable=SC1090
-test -e /usr/local/bin/aws_zsh_completer.sh && . "$_"
+
+# since, I'm using pyenv.. it should be loaded into the shims.. (which in theory
+# should be loaded into the path)
+
+test -e aws_zsh_completer.sh && . "$_"
