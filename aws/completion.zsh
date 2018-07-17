@@ -1,7 +1,6 @@
 #!/bin/sh
 # shellcheck disable=SC1090
 
-
 if command -v pyenv 1>/dev/null 2>&1; then
     # Sourceing shims is bugged in pyenv so to source from shims,
     # need to copy the completer to somewhere (using whatever is used in the version script?)
