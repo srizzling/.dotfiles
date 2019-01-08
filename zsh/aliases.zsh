@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 alias ll="ls -l"
 alias la="ls -a"
