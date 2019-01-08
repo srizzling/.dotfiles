@@ -17,3 +17,7 @@ if which code >/dev/null 2>&1; then
 	git config --global merge.tool vscode
 	git config --global mergetool.vscode.cmd "code --wait $MERGED"
 fi
+
+# configure a git template to include the ticket each time
+
+git config --global commit.template "$DOTFILES"/git/commit_template.txt

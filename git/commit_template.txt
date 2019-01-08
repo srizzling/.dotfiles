@@ -1,0 +1,3 @@
+[JIRA TICKET]: Subject Line
+
+Multi-line description of commit, feel free to be detailed
